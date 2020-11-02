@@ -46,6 +46,7 @@
   $table->addRowFieldAction(api_url(["scr"=>"registries_view","idRegistry"=>$registry_fobj->id]),"fa-search",api_text("table-td-view"));
   $table->addRowField($registry_fobj->name,"truncate-ellipsis");
   //$table->addRowField($registry_fobj->getTypologyLabel(false,true),"nowrap");
+  $table->addRowField($ob->render(),"nowrap text-right");
  }
  // build grid object
  $grid=new strGrid();
