@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-->
+ ! Registries - Default localization
+ !
+ ! @package Coordinator\Modules\Registries
+ ! @author  Manuel Zavatta <manuel.zavatta@gmail.com>
+ ! @link    http://www.coordinator.it
+<!-->
+<locale>
+
+ <!-- module -->
+ <text key="registries">Anagrafiche</text>
+ <text key="registries-description">Gestione Anagrafiche</text>
+
+ <!-- authorizations -->
+ <text key="registries-manage">Gestione</text>
+ <text key="registries-manage-description">Gestione modulo anagrafiche</text>
+ <text key="registries-usage">Abilitazione</text>
+ <text key="registries-usage-description">Utilizzo del modulo anagrafiche</text>
+
+ <!-- cRegistriesRole -->
+ <text key="cRegistriesRole">Ruolo</text>
+ <text key="cRegistriesRole-alert-error">Si è verificato un errore durante il salvataggio del ruolo</text>
+ <text key="cRegistriesRole-alert-exists">Il ruolo non è stato trovato</text>
+ <text key="cRegistriesRole-alert-stored">Il ruolo è stato salvato</text>
+ <text key="cRegistriesRole-alert-deleted">Il ruolo è stato eliminato</text>
+ <text key="cRegistriesRole-alert-undeleted">Il ruolo è stato ripristinato</text>
+ <text key="cRegistriesRole-alert-removed">Il ruolo è stato rimosso</text>
+ <text key="cRegistriesRole-confirm-delete">Confermi di voler eliminare questo ruolo?</text>
+ <text key="cRegistriesRole-confirm-undelete">Confermi di voler ripristinare questo ruolo?</text>
+ <text key="cRegistriesRole-confirm-remove">Confermi di voler rimuovere irrecuperabilmente questo ruolo dal database?</text>
+ <text key="cRegistriesRole-warning-deleted">Attenzione, questo ruolo risulta eliminata!</text>
+ <text key="cRegistriesRole-property-name">Ruolo</text>
+ <text key="cRegistriesRole-property-title">Descrizione</text>  <!-- trovare etichetta per title -->
+ <text key="cRegistriesRole-property-icon">Icona</text>
+ <text key="cRegistriesRole-placeholder-name">Nome del ruolo</text>
+ <text key="cRegistriesRole-placeholder-title">Descrizione del ruolo</text>
+
+ <!-- cRegistriesRegistry -->
+ <text key="cRegistriesRegistry">Anagrafica</text>
+ <text key="cRegistriesRegistry-alert-error">Si è verificato un errore durante il salvataggio dell'anagrafica</text>
+ <text key="cRegistriesRegistry-alert-exists">L'anagrafica non è stata trovata</text>
+ <text key="cRegistriesRegistry-alert-stored">L'anagrafica è stata salvata</text>
+ <text key="cRegistriesRegistry-alert-deleted">L'anagrafica è stata eliminata</text>
+ <text key="cRegistriesRegistry-alert-undeleted">L'anagrafica è stata ripristinata</text>
+ <text key="cRegistriesRegistry-alert-removed">L'anagrafica è stata rimossa</text>
+ <text key="cRegistriesRegistry-confirm-delete">Confermi di voler eliminare quest'anagrafica?</text>
+ <text key="cRegistriesRegistry-confirm-undelete">Confermi di voler ripristinare quest'anagrafica?</text>
+ <text key="cRegistriesRegistry-confirm-remove">Confermi di voler rimuovere irrecuperabilmente quest'anagrafica dal database?</text>
+ <text key="cRegistriesRegistry-warning-deleted">Attenzione, quest'anagrafica risulta eliminato!</text>
+ <text key="cRegistriesRegistry-property-typology">Tipologia</text>
+ <text key="cRegistriesRegistry-property-name">Anagrafica</text>
+ <text key="cRegistriesRegistry-property-fiscal">Codice Fiscale</text>
+ <text key="cRegistriesRegistry-property-vat">Partita IVA</text>
+ <text key="cRegistriesRegistry-property-url">Sito Web</text>
+ <text key="cRegistriesRegistry-property-mail">Mail</text>
+ <text key="cRegistriesRegistry-property-note">Note</text>
+ <text key="cRegistriesRegistry-property-roles">Ruoli</text>
+ <text key="cRegistriesRegistry-placeholder-typology">Seleziona una tipologia..</text>
+ <text key="cRegistriesRegistry-placeholder-name">Cognome e nome o ragione sociale</text>
+ <text key="cRegistriesRegistry-placeholder-fiscal">Codice fiscale della persona fisica o giuridica</text>
+ <text key="cRegistriesRegistry-placeholder-vat">Partita IVA in formato internazionele IT0123456789</text>
+ <text key="cRegistriesRegistry-placeholder-url">URL del sito web</text>
+ <text key="cRegistriesRegistry-placeholder-mail">indirizzo e-mail principale</text>
+ <text key="cRegistriesRegistry-placeholder-note">Inserisci eventuali note aggiuntive</text>
+ <text key="cRegistriesRegistry-typology-private">Privato</text>
+ <text key="cRegistriesRegistry-typology-freelance">Professionista</text>
+ <text key="cRegistriesRegistry-typology-company">Società</text>
+ <text key="cRegistriesRegistry-typology-public">Ente pubblico</text>
+
+ <!-- navigation -->
+ <text key="nav-settings-roles">Ruoli</text>
+ <text key="nav-registries-list">Anagrafiche</text>
+ <text key="nav-registries-add">Aggiungi anagrafica</text>
+ <text key="nav-registries-operations-edit">Modifica anagrafica</text>
+
+ <!-- roles_list -->
+ <text key="roles_list">Ruoli</text>
+ <text key="roles_list-tr-unvalued">Non sono presenti ruoli da mostrare..</text>
+ <text key="roles_list-td-add">Aggiungi ruolo</text>
+ <text key="roles_list-modal-title-add">Aggiungi ruolo</text>
+ <text key="roles_list-modal-title-edit">Modifica ruolo</text>
+
+ <!-- registries_list -->
+ <text key="registries_list">Anagrafiche</text>
+ <text key="registries_list-tr-unvalued">Non sono presenti anagrafiche da mostrare..</text>
+
+ <!-- registries_view -->
+ <text key="registries_view"><![CDATA[{0}]]></text>
+ <text key="registries_view-tab-informations">Informazioni</text>
+ <text key="registries_view-tab-documents">Documenti</text>
+ <text key="registries_view-tab-logs">Eventi</text>
+ <text key="registries_view-documents-tr-unvalued">Non sono presenti documenti da mostrare..</text>
+
+ <!-- registries_edit -->
+ <text key="registries_edit">Modifica: <![CDATA[{0}]]></text>
+ <text key="registries_edit-add">Aggiungi anagrafica</text>
+
+</locale>
