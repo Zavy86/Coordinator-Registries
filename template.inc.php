@@ -17,8 +17,10 @@
  if($registry_obj->id && in_array(SCRIPT,array("registries_view","registries_edit"))){
   $nav->addItem(api_text("nav-operations"),null,null,"active");
   $nav->addSubItem(api_text("nav-registries-operations-edit"),api_url(["scr"=>"registries_edit","idRegistry"=>$registry_obj->id]),(api_checkAuthorization("registries-manage")));
+  /*
   $nav->addSubSeparator();
   $nav->addSubItem(api_text("nav-registries-operations-document_add"),api_url(["scr"=>"registries_view","tab"=>"documents","act"=>"document_add","idRegistry"=>$registry_obj->id]),(api_checkAuthorization("registries-manage")));
+   */
  }else{
   $nav->addItem(api_text("nav-registries-add"),api_url(["scr"=>"registries_edit"]),(api_checkAuthorization("registries-manage")));
  }
