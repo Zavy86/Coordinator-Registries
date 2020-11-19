@@ -29,8 +29,7 @@
  $table=new strTable(api_text("registries_list-tr-unvalued"));
  $table->addHeader($filter->link(api_icon("fa-filter",api_text("filters-modal-link"),"hidden-link")),"text-center",16);
  $table->addHeader(api_text("cRegistriesRegistry-property-name"),null,"100%");
- $table->addHeader("&nbsp;",null,16);
- $table->addHeader(api_text("cRegistriesRegistry-property-roles"),"nowrap text-right");
+ //$table->addHeader("&nbsp;",null,16);
  // cycle all registries
  foreach($registries_array as $registry_fobj){
   // build operation button
@@ -42,15 +41,12 @@
   $tr_class_array=array();
   if($registry_fobj->id==$_REQUEST['idRegistry']){$tr_class_array[]="currentrow";}
   if($registry_fobj->deleted){$tr_class_array[]="deleted";}
-  // make roles
-  $roles_array=array();
-  foreach($registry_fobj->getRoles() as $role_fobj){$roles_array[]=$role_fobj->getLabel(false,true,"right");}
   // build registries row
   $table->addRow(implode(" ",$tr_class_array));
   $table->addRowFieldAction(api_url(["scr"=>"registries_view","idRegistry"=>$registry_fobj->id]),"fa-search",api_text("table-td-view"));
   $table->addRowField($registry_fobj->name,"truncate-ellipsis");
-  $table->addRowField($registry_fobj->getTypologyLabel(false,true),"nowrap");
-  $table->addRowField(implode("&nbsp;&nbsp;&nbsp;",$roles_array),"nowrap text-right");
+  //$table->addRowField($registry_fobj->getTypologyLabel(false,true),"nowrap");
+  $table->addRowField($ob->render(),"nowrap text-right");
  }
  // build grid object
  $grid=new strGrid();
