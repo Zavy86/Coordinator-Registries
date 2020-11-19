@@ -11,6 +11,7 @@
  foreach($registry_obj->getRoles() as $role_fobj){$roles_array[]=$role_fobj->getLabel(false,true,"left");}
  // build left informations description list
  $informations_left_dl=new strDescriptionList("br","dl-horizontal");
+ if($registry_obj->company){$informations_left_dl->addElement(api_text("cRegistriesRegistry-property-company"),$registry_obj->company);}
  if($registry_obj->fiscal){$informations_left_dl->addElement(api_text("cRegistriesRegistry-property-fiscal"),$registry_obj->fiscal);}
  if($registry_obj->vat){$informations_left_dl->addElement(api_text("cRegistriesRegistry-property-vat"),$registry_obj->vat);}
  if($registry_obj->url){$informations_left_dl->addElement(api_text("cRegistriesRegistry-property-url"),api_link($registry_obj->url,$registry_obj->url,null,null,false,null,null,null,"_blank"));}

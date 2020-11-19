@@ -21,6 +21,7 @@
   protected $deleted;
   protected $typology;
   protected $name;
+  protected $company;
   protected $fiscal;
   protected $vat;
   protected $url;
@@ -105,6 +106,7 @@
    $form->addField("select","typology",api_text("cRegistriesRegistry-property-typology"),$this->typology,api_text("cRegistriesRegistry-placeholder-typology"),null,null,null,"required");
    foreach(cRegistriesRegistry::availablesTypologies() as $typology_fobj){$form->addFieldOption($typology_fobj->code,$typology_fobj->text);}
    $form->addField("text","name",api_text("cRegistriesRegistry-property-name"),$this->name,api_text("cRegistriesRegistry-placeholder-name"),null,null,null,"required");
+   $form->addField("text","company",api_text("cRegistriesRegistry-property-company"),$this->company,api_text("cRegistriesRegistry-placeholder-company"));
    $form->addField("text","fiscal",api_text("cRegistriesRegistry-property-fiscal"),$this->fiscal,api_text("cRegistriesRegistry-placeholder-fiscal"));
    $form->addField("text","vat",api_text("cRegistriesRegistry-property-vat"),$this->vat,api_text("cRegistriesRegistry-placeholder-vat"));
    $form->addField("text","url",api_text("cRegistriesRegistry-property-url"),$this->url,api_text("cRegistriesRegistry-placeholder-url"));

@@ -50,6 +50,7 @@
  <text key="cRegistriesRegistry-warning-deleted">Attenzione, quest'anagrafica risulta eliminato!</text>
  <text key="cRegistriesRegistry-property-typology">Tipologia</text>
  <text key="cRegistriesRegistry-property-name">Anagrafica</text>
+ <text key="cRegistriesRegistry-property-company">Ragione Sociale</text>
  <text key="cRegistriesRegistry-property-fiscal">Codice Fiscale</text>
  <text key="cRegistriesRegistry-property-vat">Partita IVA</text>
  <text key="cRegistriesRegistry-property-url">Sito Web</text>
@@ -57,7 +58,8 @@
  <text key="cRegistriesRegistry-property-note">Note</text>
  <text key="cRegistriesRegistry-property-roles">Ruoli</text>
  <text key="cRegistriesRegistry-placeholder-typology">Seleziona una tipologia..</text>
- <text key="cRegistriesRegistry-placeholder-name">Cognome e nome o ragione sociale</text>
+ <text key="cRegistriesRegistry-placeholder-name">Cognome e nome o azienda</text>
+ <text key="cRegistriesRegistry-placeholder-company">Inserisci la ragione sociale dell'azienda</text>
  <text key="cRegistriesRegistry-placeholder-fiscal">Codice fiscale della persona fisica o giuridica</text>
  <text key="cRegistriesRegistry-placeholder-vat">Partita IVA in formato internazionele IT0123456789</text>
  <text key="cRegistriesRegistry-placeholder-url">URL del sito web</text>
